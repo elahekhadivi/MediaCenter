@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCenter.Pocos", "MediaCenter.Pocos\MediaCenter.Pocos.csproj", "{7045AC55-9CDC-4C5F-94B7-2C3EB121BF51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCenter.Pocos", "MediaCenter.Pocos\MediaCenter.Pocos.csproj", "{DAC4EB2C-AF9E-4E49-BCF5-E7EBE34F41D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC4EB2C-AF9E-4E49-BCF5-E7EBE34F41D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC4EB2C-AF9E-4E49-BCF5-E7EBE34F41D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC4EB2C-AF9E-4E49-BCF5-E7EBE34F41D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC4EB2C-AF9E-4E49-BCF5-E7EBE34F41D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7045AC55-9CDC-4C5F-94B7-2C3EB121BF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7045AC55-9CDC-4C5F-94B7-2C3EB121BF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7045AC55-9CDC-4C5F-94B7-2C3EB121BF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7045AC55-9CDC-4C5F-94B7-2C3EB121BF51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
