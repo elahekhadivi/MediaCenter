@@ -23,6 +23,7 @@ public partial class MediaCenterDbContext : DbContext
          modelBuilder.Entity<Movie>(entity =>
             {
                 entity.ToTable("Movie");
+                entity.HasKey(a => a.Id);
             });
         OnModelCreatingPartial(modelBuilder);
     }
