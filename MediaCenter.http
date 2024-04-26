@@ -1,0 +1,6 @@
+@MediaCenter_HostAddress = http://localhost:5100
+
+GET {{MediaCenter_HostAddress}}
+Accept: application/json
+
+###
